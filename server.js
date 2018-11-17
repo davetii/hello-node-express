@@ -3,7 +3,7 @@ const hbs = require('hbs');
 const fs = require('fs');
 const port = process.env.PORT || 3000;
 
-console.log('test')
+console.log('test2')
 let app = express();
 let underMaintenance = false;
 app.set('view engine', 'hbs');
